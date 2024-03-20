@@ -25,7 +25,7 @@ BENCHMARK_VER=1.0.0
 BENCHMARK_OS=RHEL9
 
 # Goss host Variables
-AUDIT_BIN="${AUDIT_BIN:-/home/deploy/CISCustomAudit-devel/goss}"  # location of the goss executable
+AUDIT_BIN="${AUDIT_BIN:-./goss}"  # location of the goss executable
 AUDIT_BIN_MIN_VER="0.4.4"
 AUDIT_FILE="${AUDIT_FILE:-goss.yml}"  # the default goss file used by the audit provided by the audit configuration
 AUDIT_CONTENT_LOCATION="${AUDIT_CONTENT_LOCATION:-/opt}"  # Location of the audit configuration file as available to the OS
